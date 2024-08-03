@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url("/assets/images/Bg-img-2.jpg");
+  height: 700px;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:max(1200px,100vw);
+}
+
+.main .box {
+  height: 700px;
+  background-color: black;
+  opacity: 0.61;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 75vw;
+  justify-content: space-between;
+  height: 100px;
+  top: 0;
+}
+
+nav img {
+  color: red;
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 100px);
+  flex-direction: column;
+  color: white;
+  position: relative;
+  font-family: "Martel Sans", sans-serif;
+  gap: 23px;
+  padding: 0px 30px;
+}
+
+.hero > :nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 46px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.seperation {
+  height: 8px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
+}
+.btn {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+}
+
+.red-btn {
+  background-color: red;
+  border-radius: 4px;
+  padding: 9px 35px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+.btn-red-sm {
+  background-color: red;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.main input {
+  border-radius: 4px;
+  padding: 11px 101px 8px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(244, 238, 238, 0.953);
+}
+.hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.trp-btn {
+  background-color: rgba(23, 23, 23, 0.2);
+  border: 1px solid rgba(244, 238, 238, 0.953);
+  font-size: 14px;
+  padding: 3px 11px 3px;
+}
+.flex-nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.imgSec {
+  position: relative;
+}
+.imgSec img {
+  width: 570px;
+  position: relative;
+  z-index: 10;
+}
+
+.imgSec video {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 555px;
+}
+section .first > div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+  font-family: "Martel Sans", sans-serif;
+}
+
+section .first > div span:nth-child(1) {
+  font-size: 42px;
+  font-weight: bolder;
+  padding: 20px 0px;
+}
+
+section .first > div span:nth-child(2) {
+  font-size: 24px;
+}
+
+.third .imgSec img {
+  width: 550px;
+  position: relative;
+  z-index: 10;
+}
+
+.third .imgSec video {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 330px;
+  margin-right: 113px;
+  margin-top: 10px;
+}
+.animated-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid rgb(80, 77, 77);
+  border-radius: 12px;
+  z-index: 10;
+  background-color: black;
+}
+
+.animated-box img {
+  max-width: 65px;
+  max-height: 72px;
+}
+
+.animated-box div .bold-text {
+  margin: 0 5px;
+  font-size: 20px;
+  font-weight: bolder;
+
+  z-index: 10;
+}
+.animated-box div .blue-text {
+  font-size: 14px;
+  z-index: 10;
+  color: rgb(40, 40, 227);
+}
+.animated-container {
+  padding-left: 134px;
+}
+.animated-container {
+  position: relative;
+  top: -135px;
+  z-index: 10;
+}
+.question-box {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(44, 44, 44);
+  margin: 10px;
+  padding: 25px 20px 0px 20px;
+  height: 60px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.question {
+  padding-left: 165px;
+  padding-right: 165px;
+}
+.freQ h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 51px;
+  padding-left: 220px;
+  padding-top: 50px;
+}
+.end-btn {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.txt-end {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding-top: 20px;
+  padding-left: 260px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.end-btn input {
+  border-radius: 4px;
+  padding: 11px 101px 8px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color:black;
+  border: 1px solid white;
+}
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 60px;
+}
+footer .questions {
+  padding: 34px 0;
+}
+.footer-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding:10px 0px;
+}
+.white-txt{
+  color: white;
+
+}
+.NI{
+  font-size: 16px;
+  font-family: "Martel Sans", sans-serif;
+  padding-top: 20px;
+}
+.last-btn{
+  font-size: 15px;
+  padding:5px 20px;
+}
+.txt-btn{
+  padding-top: 7px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+
+  nav{
+      max-width: 90vw;
+  }
+
+  .first {
+      flex-wrap: wrap;
+  }
+
+  .secImg img {
+      width: 305px;
+  }
+
+  .secImg video {
+      width: 305px;
+  }
+
+  .hero> :nth-child(1) {
+      font-size: 32px;
+  }
+
+  .hero> :nth-child(2) {
+      font-size: 18px;
+  }
+
+  .hero> :nth-child(3) {
+      font-size: 18px;
+  }
+
+  .hero-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+  }
+
+  .freQ h1 {
+      text-align: center;
+      font-size: 32px;
+  }
+
+  footer {
+      max-width: 90vw;
+      padding: 75px 0;
+  }
+
+  .footer-item{
+      align-items: center;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+  .footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+  }
+  .footer a {
+    font-size: 14px;
+    color: white;
+  }
+  
+    .footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+}
+
